@@ -1,0 +1,75 @@
+########################################
+# Program: water
+# Rundate: Mon  6 Apr 2026 05:24:43
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20260406-052441-0345-83366647-p2m.asequence
+#    -bsequence emboss_water-I20260406-052441-0345-83366647-p2m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NM_021175.4
+# 2: NM_032541.2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 446
+# Identity:     287/446 (64.3%)
+# Similarity:   287/446 (64.3%)
+# Gaps:          82/446 (18.4%)
+# Score: 858.0
+# 
+#
+#=======================================
+
+NM_021175.4        1 ACCAGAGCAAGCTCAAGACC-----CAGCAGTGGGACAGCCAG-ACAGAC     44
+                     ||||       |.||||.||     |.||      |||| ||| |||||.
+NM_032541.2        5 ACCA-------CACAAGTCCTTAGACTGC------ACAG-CAGAACAGAA     40
+
+NM_021175.4       45 GGCACGATGGCACTGAGCTCCCAGATCTGGGCCGCTTGCCTCCTGCTCCT     94
+                     ||||.|||||||||.|||.|.|.||.|..|||.||.||.||||||   ||
+NM_032541.2       41 GGCATGATGGCACTCAGCACTCGGACCCAGGCTGCCTGTCTCCTG---CT     87
+
+NM_021175.4       95 CCTCCTCCTCGCCAGCCTGACCAGTGGCTCTGTTTTCCCACAACAGACGG    144
+                     .||||||||.||||||||||.|||...|.|...|.|||..|||||||.|.
+NM_032541.2       88 TCTCCTCCTTGCCAGCCTGAGCAGCACCACCTATCTCCATCAACAGATGA    137
+
+NM_021175.4      145 GACA-ACTTGCAGAGCTGCAACCCCAGGACAGAGCTGGAGCCAGGGC---    190
+                     |||| || |.||||||||||.||...|.||.|.|..|.|..||||||   
+NM_032541.2      138 GACAGAC-TACAGAGCTGCAGCCTTTGCACGGGGAAGAAAGCAGGGCAGA    186
+
+NM_021175.4      191 CA--GCTGGATGCCCATGTTCCAGAGGCGAAGGAGGCGAGACACCCACTT    238
+                     ||  ||  |||.||.|||   ||||.|.||||||.|.||||||||.||||
+NM_032541.2      187 CATTGC--GATACCAATG---CAGAAGAGAAGGAAGAGAGACACCAACTT    231
+
+NM_021175.4      239 CCCCATCTGCATTTTCTGCTGCGGCTGCTGTCATCGATCAA-----AGTG    283
+                     ||||||||||||.||||||||....||||||     |.|||     ||||
+NM_032541.2      232 CCCCATCTGCATCTTCTGCTGTAAATGCTGT-----AACAATTCCCAGTG    276
+
+NM_021175.4      284 TGGGATGTGCTGCAAGACGTAGAACCTA---------CCTGCCCT-----    319
+                     |||.||.||.|||||.||.|||  ||||         ||||.|||     
+NM_032541.2      277 TGGTATCTGTTGCAAAACATAG--CCTAGAGCCACATCCTGACCTCTCTA    324
+
+NM_021175.4      320 -GCCCC--CGTCCCCT---CCCTTCCTTATTTATTCCTG--CTGCCCCAG    361
+                      .||||  |..|||||   |||  |.|||||||||||||  ||.|||   
+NM_032541.2      325 CACCCCTGCAGCCCCTCAACCC--CATTATTTATTCCTGCCCTCCCC---    369
+
+NM_021175.4      362 AACATAGGTCTTGGAATAAA-ATGGCTGGTTCTTTTGTTTTCCAAA    406
+                     |.||..|..||||.|||||| |.|       .||||.|||||.|||
+NM_032541.2      370 ACCAATGACCTTGAAATAAAGACG-------ATTTTATTTTCAAAA    408
+
+
+#---------------------------------------
+#---------------------------------------
