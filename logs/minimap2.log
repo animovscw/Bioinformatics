@@ -1,0 +1,11 @@
+[M::main::0.068*0.98] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.078*0.99] mid_occ = 12
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.085*0.99] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+[M::worker_pipeline::46.935*3.76] mapped 81115 sequences
+[M::worker_pipeline::88.682*3.98] mapped 70947 sequences
+[M::worker_pipeline::129.647*4.04] mapped 66739 sequences
+[M::worker_pipeline::161.076*4.01] mapped 49594 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: minimap2 -ax map-ont -t 4 ref/ecoli.mmi data/SRR7517493.fastq.gz
+[M::main] Real time: 161.106 sec; CPU: 645.897 sec; Peak RSS: 3.825 GB

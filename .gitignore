@@ -1,0 +1,26 @@
+# Большие файлы данных
+data/*.fastq
+data/*.fastq.gz
+data/*.sam
+data/*.bam
+data/*.bai
+data/*.vcf
+
+# Временные файлы fasterq-dump
+fasterq.tmp*/
+
+# Бинарники и архивы инструментов
+minimap2-2.28_x64-linux/
+minimap2-2.28_x64-linux.tar.bz2
+sratoolkit*/
+*.tar.gz
+*.tar.bz2
+
+# Индекс minimap2 (пересоздаётся за 0.2 сек)
+ref/*.mmi
+
+# Референсный геном (скачивается по ссылке в README)
+ref/*.fa
+ref/*.fna
+ref/*.gz
+.snakemake/
