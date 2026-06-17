@@ -1,0 +1,25 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:87: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (4.0.0) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+hello_world        1
+total              1
+
+Select jobs to execute...
+
+[Tue Jun  9 11:04:44 2026]
+rule hello_world:
+    output: logs/hello_snakemake.txt
+    jobid: 0
+    reason: Missing output files: logs/hello_snakemake.txt
+    resources: tmpdir=/tmp
+
+[Tue Jun  9 11:04:44 2026]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2026-06-09T110444.304942.snakemake.log

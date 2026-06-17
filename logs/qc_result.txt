@@ -1,0 +1,8 @@
+----------------------------------------
+Flagstat file : data/flagstat.txt
+Mapped reads  : 77.80%
+Threshold     : 90%
+----------------------------------------
+Quality check : not OK
+----------------------------------------
+QC report saved: QC_report_NOT_OK_20260609_110517.html

@@ -1,0 +1,39 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:87: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (4.0.0) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count
+---------------------  -------
+all                          1
+check_mapping_quality        1
+total                        2
+
+Select jobs to execute...
+
+[Tue Jun  9 11:05:17 2026]
+rule check_mapping_quality:
+    input: data/flagstat.txt, scripts/parse_flagstat.sh
+    output: logs/qc_result.txt
+    jobid: 5
+    reason: Missing output files: logs/qc_result.txt
+    resources: tmpdir=/tmp
+
+[Tue Jun  9 11:05:17 2026]
+Finished job 5.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Tue Jun  9 11:05:17 2026]
+localrule all:
+    input: data/flagstat.txt, logs/qc_result.txt
+    jobid: 0
+    reason: Input files updated by another job: logs/qc_result.txt
+    resources: tmpdir=/tmp
+
+[Tue Jun  9 11:05:17 2026]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2026-06-09T110517.398223.snakemake.log
